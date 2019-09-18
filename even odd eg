@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class practice {
+	public static void main(String[] args)
+    {
+		
+		int a1;
+		Scanner s =new Scanner(System.in);
+		System.out.println("Enter the number of elements in array");
+		int n= s.nextInt();
+		int a[]= new int[n];
+		ArrayList<Integer> even1= new ArrayList<Integer>();
+		ArrayList<Integer> odd1= new ArrayList<Integer>();
+		System.out.println("Enter the numbers ");
+		for (int i=0;i<n;i++) {
+			a1=s.nextInt();			
+			if((a1%2)==0)
+				even1.add(a1);
+			else
+				odd1.add(a1);
+			}
+		System.out.println("Even numbers "+even1);
+		System.out.println("Odd numbers "+odd1);
+		
+		
+    }
+}
