@@ -54,7 +54,7 @@ public class FilterEvenOdd {
 		int[] numbers = filtering.randomIntegers(15);
 		System.out.println(Arrays.toString(filtering.filterEvenOdd(numbers)));
 
-		int[] input = filtering.randomIntegers(100);
-		System.out.println(Arrays.toString(filtering.filterEvenOdd(input)));
+//		int[] input = filtering.randomIntegers(100);
+//		System.out.println(Arrays.toString(filtering.filterEvenOdd(input)));
 	}
 }
