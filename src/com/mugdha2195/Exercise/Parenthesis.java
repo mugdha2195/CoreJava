@@ -18,12 +18,12 @@ public class Parenthesis {
 				throw new IllegalArgumentException("Invalid character: " + ch);
 			}
 		}
-		return true;
+		return (count == 0);
 	}
 
 	public static void main (String args[]) {
 		Parenthesis p = new Parenthesis();
-		String s="((())())";
+		String s="(((((";
 		System.out.println(p.find(s));
 			
 	}
